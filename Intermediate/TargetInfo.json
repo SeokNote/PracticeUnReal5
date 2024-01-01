@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "PracticeUnReal",
+			"Path": "..\\Source\\PracticeUnReal.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "PracticeUnRealEditor",
+			"Path": "..\\Source\\PracticeUnRealEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

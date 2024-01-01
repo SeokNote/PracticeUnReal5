@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\PracticeUnReal.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\PracticeUnReal.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\PracticeUnRealEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.vsconfig" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\PracticeUnReal">
+      <UniqueIdentifier>{EC6174AC-F880-3C1D-A452-49BA5CA26DC1}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\PracticeUnReal\MyActor.cpp">
+      <Filter>Source\PracticeUnReal</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PracticeUnReal\MyActor.h">
+      <Filter>Source\PracticeUnReal</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\PracticeUnReal\PracticeUnReal.Build.cs">
+      <Filter>Source\PracticeUnReal</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\PracticeUnReal\PracticeUnReal.cpp">
+      <Filter>Source\PracticeUnReal</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PracticeUnReal\PracticeUnReal.h">
+      <Filter>Source\PracticeUnReal</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
